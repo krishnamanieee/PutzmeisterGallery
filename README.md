@@ -5,16 +5,6 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 📄 **Documentation:** See [`docs/PROJECT_OVERVIEW.md`](docs/PROJECT_OVERVIEW.md) for architecture, features, and future improvements.
 
 ---
-
-# App Screenshots
-
-- Gallery Screen:
-
-![Gallery Screen](/docs/images/gallery.png)
-![Details Screen](/docs/images/details-1.png)
-![Details Screen](/docs/images/details-2.png)
-![favorites Screen](/docs/images/fav.png)
-
 # Getting Started
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
@@ -136,4 +126,18 @@ A React Native image gallery app using Flickr's public feed, built with atomic d
 
 ---
 
-> Only the following optional features are included: Filters, Image Caching, Favorites, Pull-to-Refresh, Share Image, and Error Boundary. All other features are planned for future improvement and are documented above.
+> Only the following optional features are included: Image Caching, Favorites, Pull-to-Refresh, Share Image, and Error Boundary. All other features are planned for future improvement and are documented above.
+
+
+
+# App Screenshots
+
+- Gallery Screen:  
+  <img src="/docs/images/gallery.png" alt="Gallery Screen" width="350"/>
+
+- Details Screen:  
+  <img src="/docs/images/details-1.png" alt="Details Screen 1" width="350"/>
+  <img src="/docs/images/details-2.png" alt="Details Screen 2" width="350"/>
+
+- Favorites Screen:  
+  <img src="/docs/images/fav.png" alt="Favorites Screen" width="350"/>
