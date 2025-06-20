@@ -66,7 +66,7 @@ This is one way to run your app — you can also build it directly from Android 
 
 Now that you have successfully run the app, let's make changes!
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
 
 When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
 
@@ -95,3 +95,31 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# Putzmeister Gallery App
+
+A React Native image gallery app using Flickr's public feed, built with atomic design principles.
+
+## Features
+- Browse public Flickr images in a gallery
+- Filter images by tag (search bar)
+- Image caching for performance (planned)
+- Mark/unmark images as favorites (planned)
+- Pull-to-refresh in the gallery (planned)
+- Share images via device share sheet (planned)
+- Error boundary for graceful error handling (planned)
+
+## Not Implemented (Future Improvements)
+- Theming (Light/Dark Mode)
+- Accessibility improvements
+- More filter options (date, author, etc.)
+- Offline support
+- UI/UX polish
+
+## Project Structure
+- Follows Atomic Design for components (atoms, molecules, organisms, templates)
+- Organized for scalability and maintainability
+
+---
+
+> Only the following optional features are included: Filters, Image Caching, Favorites, Pull-to-Refresh, Share Image, and Error Boundary. All other features are planned for future improvement and are documented above.
