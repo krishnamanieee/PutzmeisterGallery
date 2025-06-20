@@ -62,6 +62,4 @@ graph TD
   Atoms --> Text
   GalleryScreen -->|API| FlickrAPI
   FlickrAPI -->|fetch| Flickr
-  GalleryScreen -->|Context| FavoritesContext
-  FavoritesScreen -->|Context| FavoritesContext
 ``` 

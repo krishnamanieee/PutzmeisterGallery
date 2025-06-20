@@ -10,7 +10,10 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 - Gallery Screen:
 
-![Gallery Screen](docs/images/app-screenshot.png)
+![Gallery Screen](/docs/images/gallery.png)
+![Details Screen](/docs/images/details-1.png)
+![Details Screen](/docs/images/details-2.png)
+![favorites Screen](/docs/images/fav.png)
 
 # Getting Started
 
@@ -114,7 +117,6 @@ A React Native image gallery app using Flickr's public feed, built with atomic d
 
 ## Features
 - Browse public Flickr images in a gallery
-- Filter images by tag (search bar)
 - Image caching for performance (planned)
 - Mark/unmark images as favorites (planned)
 - Pull-to-refresh in the gallery (planned)
