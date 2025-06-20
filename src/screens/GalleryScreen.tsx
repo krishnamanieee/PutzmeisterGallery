@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Text as RNText, StyleSheet, SectionList, ActivityIndicator, TouchableOpacity, View } from 'react-native';
 import GalleryTemplate from '../components/templates/GalleryTemplate';
 import HorizontalGallery from '../components/organisms/HorizontalGallery';
@@ -11,11 +11,21 @@ import { FlickrFeedItem } from '../types/flickr';
 import Icon from 'react-native-vector-icons/FontAwesome6';
 
 const GalleryScreen: React.FC = () => {
-  const { feeds, loading } = useMultiTagFlickrFeed(TAGS);
+  const { feeds, loading, refetch } = useMultiTagFlickrFeed(TAGS);
   const navigation = useNavigation<StackNavigationProp<RootStackParamList>>();
+
+  const [refreshing, setRefreshing] = useState(false);
 
   const handleItemPress = (item: FlickrFeedItem) => {
     navigation.navigate('Detail', { item });
+  };
+
+  const onRefresh = async () => {
+    setRefreshing(true);
+    if (typeof refetch === 'function') {
+      await refetch();
+    }
+    setRefreshing(false);
   };
 
   if (loading) {
@@ -50,6 +60,8 @@ const GalleryScreen: React.FC = () => {
         contentContainerStyle={{ paddingBottom: 32 }}
         showsVerticalScrollIndicator={false}
         stickySectionHeadersEnabled={false}
+        refreshing={refreshing}
+        onRefresh={onRefresh}
       />
     </GalleryTemplate>
   );

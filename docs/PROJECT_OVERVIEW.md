@@ -64,4 +64,4 @@ graph TD
   FlickrAPI -->|fetch| Flickr
   GalleryScreen -->|Context| FavoritesContext
   FavoritesScreen -->|Context| FavoritesContext
-</code_block_to_apply_changes_from> 
+``` 
