@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1750445999878" clover="3.2.0">
+  <project timestamp="1750445999878" name="All files">
+    <metrics statements="11" coveredstatements="10" conditionals="19" coveredconditionals="18" methods="4" coveredmethods="3" elements="34" coveredelements="31" complexity="0" loc="11" ncloc="11" packages="3" files="4" classes="4"/>
+    <package name="assets">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="placeholder.png" path="/Users/nineleaps/Documents/PutzmeisterGallery/src/assets/placeholder.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.atoms">
+      <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
+      <file name="Image.tsx" path="/Users/nineleaps/Documents/PutzmeisterGallery/src/components/atoms/Image.tsx">
+        <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="1"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+      <file name="Text.tsx" path="/Users/nineleaps/Documents/PutzmeisterGallery/src/components/atoms/Text.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.molecules">
+      <metrics statements="4" coveredstatements="4" conditionals="15" coveredconditionals="14" methods="1" coveredmethods="1"/>
+      <file name="ImageCard.tsx" path="/Users/nineleaps/Documents/PutzmeisterGallery/src/components/molecules/ImageCard.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="15" coveredconditionals="14" methods="1" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

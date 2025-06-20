@@ -141,3 +141,9 @@ A React Native image gallery app using Flickr's public feed, built with atomic d
 
 - Favorites Screen:  
   <img src="/docs/images/fav.png" alt="Favorites Screen" width="350"/>
+
+
+# Coverage Report
+ 
+  <img src="/docs/images/coverage.png" alt="Gallery Screen" width="550"/>
+
